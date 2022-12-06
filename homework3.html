@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .floatingtext {
+            position: relative;
+            top: -130px;
+            left: 135px;
+            color: white;
+            font-size: 40px;
+            height: 0px;
+
+        }
+
+        .headlineimage {
+            position: relative;
+            top: 0;
+            left: 0
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: auto 5px;
+            color:gold;
+            position: relative;
+            left: 105px;
+            line-height: 50px;
+            
+            font-size: 20px;
+
+
+        }
+
+        nav ul {
+            margin: 0;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            background-color: brown;
+            height:50px
+        }
+        nav ul li a {
+            color:gold;
+            text-decoration: none;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            padding: 12px 16px;
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+
+
+        }
+
+        .sidenav {
+            width: 130px;
+            position: fixed;
+            z-index: 1;
+            top: 600px;
+            left: 10px;
+            background: #eee;
+            overflow-x: hidden;
+            padding: 8px 0;
+        }
+
+        .sidenav a {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #2196F3;
+            display: block;
+        }
+
+        .sidenav a:hover {
+            color: #064579;
+        }
+
+        .main {
+            margin-left: 140px;
+            /* Same width as the sidebar + left position in px */
+            font-size: 28px;
+            /* Increased text to enable scrolling */
+            padding: 0px 10px;
+        }
+
+        .main p {
+            max-width: 1400px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="headlineimage"><img src="753925.jpg" width=100%></div>
+
+        <div class="floatingtext">
+            <p>世界第一次大战中的齐柏林飞艇</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#origin">诞生</a></li>
+                <li><a href="#glory">辉煌</a></li>
+                <li>
+                    <div class="dropdown">
+                        <span>尾声</span>
+                        <div class="dropdown-content">
+                            <a href="#end">尾声</a>
+                            <br>
+                            <a href="#end">也是尾声</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="sidenav">
+            <a href="#origin">诞生</a>
+            <a href="#glory">辉煌</a>
+            <a href="#end">尾声</a>
+        </div>
+
+        <div class="main">
+            <a name="origin"></a>
+            <h2>诞生</h2>
+            <p>1900年7月2日，由德国的斐迪南·冯·齐柏林伯爵设计并制造的一架飞艇曾在今天的腓特列港附近进行首次飞行。这架飞艇是在康斯坦斯湖上漂浮的1个飞机棚里制造的，飞艇上有1个用金属丝缠着的铝壳，铝壳外面裹着装有16个氢气囊的棉布。两台16马力的发动机使飞艇速度达到每小时14英里，齐柏林飞艇曾担任大西洋两岸重要的商业飞行。美国内战期间，在联盟军队当军事观察员时，冯·齐柏林曾第一次乘气球升入空中，1891年以来他一直从事飞艇的研制工作。
+            </p>
+            <a name="glory"></a>
+            <h2>辉煌</h2>
+            <p>在当时，巨型飞艇主要的用途涵盖了民用与军事两种领域。民用方面，德意志飞艇运输公司（Deutsche
+                Luftschiffahrts-AG）可以被视为是现代商业航空界的开山祖师，在第一次世界大战爆发前曾非常活跃过。大战爆发后，各国军事将领们注意到飞船高高在上的运用性，因此改将其投入到战场上，担任空中轰炸或侦察斥候的任务。
+                在第一次世界大战爆发之时，轻于空气的飞行器技术已经达到了相当高的程度。德国的齐柏林公司所建造的飞艇，按当时的技术水平来说，可以认为是科学和工程技术上的奇迹之作。每艘飞艇都具有优美的线条，巨大的尺寸，大马力航空发动机特有的“嗡嗡”声音，推动着一艘艘德国飞艇划破天空的线条。人们第一眼看到齐柏林飞艇的时候，就肯定会象被符咒抓住一样，倾倒于它的雄伟奇妙。另外一方面，重于空气的飞行器则是一个丑陋的新生儿，只能搭载一到两个人。飞艇则可轻而易举地搭载数吨的物品。比起如同恐龙一般高傲地雄踞天空的飞艇，重于空气的飞行器只是些不起眼的、无害的小哺乳兽。
+                齐柏林飞艇
+                齐柏林飞艇
+                在战争爆发后，德国陆军和海军都建立起了自己的飞艇舰队。德国海军通常使用齐柏林公司制造的铝制龙骨的飞艇，编号为L（德文飞艇，Luftschiff）开头。德国空军的飞艇则通常是由舒特-朗茨（Shutte-Lanz）公司制造的木制龙骨飞艇，编号为SL。SL型飞艇因为重量问题而没有被德国海军接受。无论海军还是空军的飞艇，在开战后都开始执行轰炸英国的任务，以图从空中摧毁英国的工业基地，打击英国的士气。1914年8月5日夜，Z—6号齐伯林气艇成功地轰炸了比利时的列日要塞，8月26日，德国飞艇对安特卫普实施了一周的轰炸，8月30日空袭了巴黎。1915年1月19日，德国飞艇开始轰炸英国本土。这种对于己方的军事手段过于自负的思想，对于20世纪初欧洲各大强国以军国主义为圭皋的总参谋部官僚们来说，是一种普遍现象。就象同时代的“无敌大炮”，“不沉战舰”，德国军方天真地认为，齐柏林飞艇是他们手中的一门终极武器，飞艇一出，无往不胜，无坚不摧，诸国降伏。当然，以一战爆发时尚幼稚得可怜的飞机来说，也没有力量去阻止飞艇的光临。能够在夜间作战的飞机几乎没有，而一般的飞机就是发现了飞艇，唯一能做的事情也不过是在它的粗厚外皮上戳两个小洞洞。当时唯一能够阻止这些德国空中猛犸去英国表兄家串门的，就是北海上空变化无常的天气。这些飞艇通常在傍晚从德国本土的库克斯港、科隆和杜塞尔多夫等处基地起飞，华灯初上的时候到达英国上空。英国城市的路灯和房屋里面透出来的灯火是它们最好的路标——“灯火管制”一词当时还未出现。扔下搭载的危险货物之后，它们掉头东飞，于第二天黎明之前返回德国。1915年1月19日，德国的齐柏林飞艇第一次从1500米高空空袭了东英格兰。5月31日，德国陆军LZ-38号飞艇在林纳茨上尉的指挥下首次空袭了伦敦，炸死7人，炸伤31人。6月7日凌晨，LZ-37号飞艇在法国加莱附近被皇家空军飞行员用6公斤的小型炸弹击落。10月20日，德国陆海军又有11艘飞艇去轰炸伦敦，但是其中3艘毁于风暴。
+            </p>
+            <a name="end"></a>
+            <h2>尾声</h2>
+            <p>第一次世界大战后德国败战，曾一度让齐柏林飞船的营运陷入泥沼，但雨果·埃克纳（Hugo
+                Eckener）继起已逝的齐柏林伯爵遗志，在1920年代复兴了齐柏林飞船，并且在1930年代达到颠峰。在当时，包括LZ127“齐柏林伯爵号”（Graf
+                Zeppelin）与LZ129“兴登堡号”（Hindenburg）等几艘脍炙人口的巨型飞船，在跨大西洋的欧美航线上都有丰富的获利。但不料，1937年时兴登堡号在美国新泽西州失火坠毁，也就是著名的“兴登堡空难”，在那之后包括齐柏林飞船在内的整个飞船运输产业急速没落，不久之后就被新兴的民航机给取代了。
+            </p>
+        </div>
+
+    </main>
+</body>
+
+</html>
